@@ -73,14 +73,17 @@ public class Eighth_project {
             System.out.println(" ");
         }*/
         
-        int array2[][] = {{1,2,3},{4,12,3},{6,9}};
+        int array2[][] = {{1,2,3},{4,12},{6,9,5}};
+        int summ = 0;
         for (int i = 0; i < array2.length; i++)
         {
             for (int j = 0; j < array2[i].length; j++) 
                 {
+                    summ += array2[i][j];
                     System.out.print(array2[i][j]+" ");
                 }
-    
+                System.out.println(" ");
+                System.out.println(summ);
         }
          
     }
