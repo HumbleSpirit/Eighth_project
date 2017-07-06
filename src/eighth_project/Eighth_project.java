@@ -51,7 +51,16 @@ public class Eighth_project {
         System.out.println(str1);
         System.out.println(str3);*/
         
-        
+       /* int testArray[] = {2,6,3,4,8};
+        for (int i = 0; i < testArray.length; i++) //standard loop
+        {
+            System.out.println(testArray[i]);
+        }*/
+        String namesArray[] = {"John", "Mark", "William", "James", "Kevin"};
+        for (String i : namesArray)
+            {
+                System.out.println(i);
+            }
     }
     
 }
