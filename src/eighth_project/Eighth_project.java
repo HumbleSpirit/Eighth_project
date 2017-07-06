@@ -56,11 +56,33 @@ public class Eighth_project {
         {
             System.out.println(testArray[i]);
         }*/
-        String namesArray[] = {"John", "Mark", "William", "James", "Kevin"};
+        /*String namesArray[] = {"John", "Mark", "William", "James", "Kevin"};
         for (String i : namesArray)
             {
                 System.out.println(i);
+            }*/
+        
+        /*int array[][] = new int [3][3];
+        for (int i = 0; i < 3; i++) 
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                array[i][j] = (i * 3) + j + 1;
+                System.out.print(array[i][j]+"\t");    
             }
+            System.out.println(" ");
+        }*/
+        
+        int array2[][] = {{1,2,3},{4,12,3},{6,9}};
+        for (int i = 0; i < array2.length; i++)
+        {
+            for (int j = 0; j < array2[i].length; j++) 
+                {
+                    System.out.print(array2[i][j]+" ");
+                }
+    
+        }
+         
     }
     
 }
