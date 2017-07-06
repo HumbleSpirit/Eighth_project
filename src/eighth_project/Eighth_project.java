@@ -73,8 +73,9 @@ public class Eighth_project {
             System.out.println(" ");
         }*/
         
-        int array2[][] = {{1,2,3},{4,12},{6,9,5}};
+       /* int array2[][] = {{1,2,3},{4,12},{6,9,5}};
         int summ = 0;
+        int other = 0;
         for (int i = 0; i < array2.length; i++)
         {
             for (int j = 0; j < array2[i].length; j++) 
@@ -84,8 +85,61 @@ public class Eighth_project {
                 }
                 System.out.println(" ");
                 System.out.println(summ);
-        }
+        }*/
+       /*int array2[][] = {{1,2,3},{4,12,7},{6,9,5}};
+        int summ = 0;
+        int other = 0;
+        for (int i = 0; i < array2.length; i++)
+        {
+            for (int j = 0; j < array2[i].length; j++) 
+                {
+                   if (i == j)
+                       summ+=array2[i][j]; //Сумма главной диагонали
+      
+                       
+                }
+                System.out.println(" ");
+                System.out.println(summ);
+        }*/
          
+        /*int array2[][] = {
+                            {1,2,3},
+                            {4,12,7},
+                            {6,9,5}
+                         };
+        int summ = 0;
+        int other = 0;
+        for (int i = 0; i < array2.length; i++)
+        {
+            for (int j = 0; j < array2[i].length; j++) 
+                {
+                   if (i == array2[i].length - 1 - j) //сумма побочной диагонали
+                       other+=array2[i][j];
+                       
+                }
+                System.out.println(" ");
+                System.out.println(other);
+        }*/
+        
+          int array2[][] = {
+                            {1,2,3},
+                            {4,12,7},
+                            {6,9,5}
+                         };
+        
+        int other = 0;
+        for (int i = 0; i < array2.length; i++)
+        {
+            int summ = 0;
+            for (int j = 0; j < array2[i].length; j++) 
+                {
+                    //первый индекс отвечает за номер строки
+                  summ += array2[j][i]; //сумма по столбцам
+                       
+                }
+                //System.out.println(" ");
+                System.out.print(summ +"\u0d0a");
+        }
     }
     
 }
