@@ -21,8 +21,10 @@ public class Eighth_project {
         {
             System.out.println(testArray[i]);
         }
-        for (int u : testArray) // for each loop
+        for (int u : testArray) // for each 
+    // this loop doesnt change elements of array (collection)
         {
+            
             System.out.println(u);
             
         }
