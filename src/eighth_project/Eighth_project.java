@@ -36,10 +36,22 @@ public class Eighth_project {
             
         }*/
         
-        String str = "Hello";
+        /*String str = "Hello";
         String str2 = new String("Hello world");
         System.out.println(str);
-        System.out.println(str2);        
+        //System.out.println(str2); 
+        str = "world";
+        System.out.println(str);*/
+       /* String str1 = "world";
+        String str2 = "Hello";
+        System.out.println(str1 + str2);
+        String str3 = str1 + str2;
+        System.out.println(" " + str3);
+        str1+=str2;
+        System.out.println(str1);
+        System.out.println(str3);*/
+        
+        
     }
     
 }
