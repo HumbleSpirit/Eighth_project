@@ -16,7 +16,8 @@ public class Eighth_project {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int testArray[] = {2,6,3,4,8};
+      /*  int testArray[] = {2,6,3,4,8};
+        //int testArray[] = {1,1,1,1,1};
         for (int i = 0; i < testArray.length; i++) //standard loop
         {
             System.out.println(testArray[i]);
@@ -24,10 +25,21 @@ public class Eighth_project {
         for (int u : testArray) // for each 
     // this loop doesnt change elements of array (collection)
         {
-            
+          
+            System.out.println(u);
+          
+        }
+        int testArray2[];
+        testArray2 = testArray;
+        for (int u : testArray2) {
             System.out.println(u);
             
-        }
+        }*/
+        
+        String str = "Hello";
+        String str2 = new String("Hello world");
+        System.out.println(str);
+        System.out.println(str2);        
     }
     
 }
